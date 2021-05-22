@@ -45,7 +45,7 @@ echo "<script>alert('Invalid Details');</script>";
 
 <head>
  
-    <title>Curfew Pass Management System | Login Page</title>
+    <title>Lockdown Pass Management System | Login Page</title>
     <!-- Core CSS - Include with every page -->
     <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
@@ -61,7 +61,7 @@ echo "<script>alert('Invalid Details');</script>";
        
         <div class="row">
             <div class="col-md-4 col-md-offset-4 text-center logo-margin ">
-              <h3 style="color: white;">Curfew e-Pass Management System</h3>
+              <h3 style="color: white;">Lockdown e-Pass Management System</h3>
                 </div>
             <div class="col-md-4 col-md-offset-4">
                 <div class="login-panel panel panel-default">                  

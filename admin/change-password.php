@@ -39,7 +39,7 @@ echo '<script>alert("Your current password is wrong")</script>';
 
 <head>
     
-    <title>Curfew Pass Management System | Change Password</title>
+    <title>Lockdown Pass Management System | Change Password</title>
     <!-- Core CSS - Include with every page -->
     <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />

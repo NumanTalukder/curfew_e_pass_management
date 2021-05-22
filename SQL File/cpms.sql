@@ -1,10 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.9.0.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Apr 16, 2020 at 05:10 AM
--- Server version: 10.3.15-MariaDB
+-15-MariaDB
 -- PHP Version: 7.2.19
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -13,20 +7,7 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
 
---
--- Database: `cpms`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tbladmin`
---
 
 CREATE TABLE `tbladmin` (
   `ID` int(10) NOT NULL,
@@ -38,9 +19,7 @@ CREATE TABLE `tbladmin` (
   `AdminRegdate` timestamp NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `tbladmin`
---
+
 
 INSERT INTO `tbladmin` (`ID`, `AdminName`, `UserName`, `MobileNumber`, `Email`, `Password`, `AdminRegdate`) VALUES
 (1, 'Admin user', 'admin', 1234567890, 'adminuser@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2020-04-14 06:44:27');
@@ -93,51 +72,33 @@ CREATE TABLE `tblpass` (
 --
 
 INSERT INTO `tblpass` (`ID`, `PassNumber`, `FullName`, `ContactNumber`, `Email`, `IdentityType`, `IdentityCardno`, `Category`, `FromDate`, `ToDate`, `PasscreationDate`) VALUES
-(1, '286529906', 'Yogesh Kumar', 4654464646, 'yogi@gmail.com', 'Adhar Card', 'AD-122346', 'Cleaning', '2020-04-14', '2020-05-14', '2020-04-14 11:47:03'),
-(2, '915773340', 'Suresh Khanna', 9879878978, 'suresh@gmail.com', 'Any Other Govt Issued Doc', 'KTI-896567', 'Essential Services', '2020-04-14', '2020-07-31', '2020-04-13 11:50:15'),
-(3, '884595667', 'Anuj kumar', 1234567890, 'phpgurukulofficial@Gmail.com', 'Voter Card', '5235252', 'Essential Services', '2020-04-16', '2020-04-19', '2020-04-16 02:38:27');
+(1, '286529906', 'Alamin', 4654464646, 'dsad@gmail.com', 'Adhar Card', 'AD-122346', 'Cleaning', '2020-04-14', '2020-05-14', '2020-04-14 11:47:03'),
+(2, '915773340', 'Numan', 9879878978, 'numan@gmail.com', 'Any Other Govt Issued Doc', 'KTI-896567', 'Essential Services', '2020-04-14', '2020-07-31', '2020-04-13 11:50:15'),
+(3, '884595667', 'Afdf', 1234567890, 'phpgurukulofficial@Gmail.com', 'Voter Card', '5235252', 'Essential Services', '2020-04-16', '2020-04-19', '2020-04-16 02:38:27');
 
---
--- Indexes for dumped tables
---
 
---
--- Indexes for table `tbladmin`
 --
 ALTER TABLE `tbladmin`
   ADD PRIMARY KEY (`ID`);
 
---
--- Indexes for table `tblcategory`
---
+
 ALTER TABLE `tblcategory`
   ADD PRIMARY KEY (`ID`);
 
---
--- Indexes for table `tblpass`
---
+
 ALTER TABLE `tblpass`
   ADD PRIMARY KEY (`ID`);
 
---
--- AUTO_INCREMENT for dumped tables
---
 
---
--- AUTO_INCREMENT for table `tbladmin`
---
+
 ALTER TABLE `tbladmin`
   MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
---
--- AUTO_INCREMENT for table `tblcategory`
---
+
 ALTER TABLE `tblcategory`
   MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
---
--- AUTO_INCREMENT for table `tblpass`
---
+
 ALTER TABLE `tblpass`
   MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;

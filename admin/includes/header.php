@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="dashboard.php">
-                    <strong style="color: white;font-size: 30px">CePMS</strong>
+                    <strong style="color: white;font-size: 30px">LockdownPMS</strong>
                 </a>
             </div>
             <!-- end navbar-header -->

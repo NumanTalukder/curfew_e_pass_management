@@ -35,7 +35,7 @@ echo "<script>alert('Email id or Mobile no is invalid');</script>";
 
 <head>
  
-    <title>Curfew Pass Management System | Forgot Password Page</title>
+    <title>Lockdown Pass Management System | Forgot Password Page</title>
     <!-- Core CSS - Include with every page -->
     <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />

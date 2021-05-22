@@ -44,7 +44,7 @@ echo "<script>alert('Category Name Already Exist. Please try again');</script>";
 
 <head>
     
-    <title>Curfew Pass Management System | Update Category</title>
+    <title>Lockdown Pass Management System | Update Category</title>
     <!-- Core CSS - Include with every page -->
     <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />

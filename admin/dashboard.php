@@ -12,7 +12,7 @@ if (strlen($_SESSION['cpmsaid']==0)) {
 
 <head>
     
-    <title>Curfew Pass Management System | Dashboard</title>
+    <title>Lockdown Pass Management System | Dashboard</title>
     <!-- Core CSS - Include with every page -->
     <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />

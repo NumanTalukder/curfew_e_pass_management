@@ -8,7 +8,7 @@ include('includes/dbconnection.php');
 <html lang="en">
 <head>
   
-  <title>Curfew e-Pass Management System - Home</title>
+  <title>Lockdown e-Pass Management System - Home</title>
 
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
@@ -27,7 +27,7 @@ include('includes/dbconnection.php');
   <!--================ Banner Section start =================-->
   <section class="hero-banner text-center">
     <div class="container">
-      <h1>Curfew e-Pass Management System</h1>
+      <h1>Lockdown e-Pass Management System</h1>
  
     </div>
   </section>

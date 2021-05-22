@@ -28,7 +28,7 @@ $query->execute();
 
 <head>
     
-    <title>Curfew Pass Management System | Admin Profile</title>
+    <title>Lockdown Pass Management System | Admin Profile</title>
     <!-- Core CSS - Include with every page -->
     <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
