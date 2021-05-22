@@ -42,7 +42,7 @@ echo "<script>window.location.href ='add-pass.php'</script>";
          echo '<script>alert("Something Went Wrong. Please try again")</script>';
     }
 
-  
+
 
 }
 ?>
@@ -51,7 +51,7 @@ echo "<script>window.location.href ='add-pass.php'</script>";
 <html>
 
 <head>
-    
+
     <title>Curfew Pass Management System | Add Pass</title>
     <!-- Core CSS - Include with every page -->
     <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
@@ -87,20 +87,18 @@ echo "<script>window.location.href ='add-pass.php'</script>";
                 <div class="col-lg-12">
                     <!-- Form Elements -->
                     <div class="panel panel-default">
-                       
+
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <form method="post" enctype="multipart/form-data"> 
-                                    
+                                    <form method="post" enctype="multipart/form-data">
+
     <div class="form-group"> <label for="exampleInputEmail1">Full Name</label> <input type="text" name="fullname" value="" class="form-control" required='true'> </div>
     <div class="form-group"> <label for="exampleInputEmail1">Contact Number</label> <input type="text" name="cnumber" value="" class="form-control" required='true' maxlength="10" pattern="[0-9]+"> </div>
     <div class="form-group"> <label for="exampleInputEmail1">Email Address</label> <input type="email" name="email" value="" class="form-control" required='true'> </div>
     <div class="form-group"> <label for="exampleInputEmail1">Identity Type</label><select type="text" name="identitytype" value="" class="form-control" required='true'>
 <option value="">Choose Identity Type</option>
-<option value="Voter Card">Voter Card</option>
-<option value="PAN Card">PAN Card</option>
-<option value="Adhar Card">Adhar Card</option>
+<option value="NID Card">Voter Card</option>
 <option value="Student Card">Student Card</option>
 <option value="Driving License">Driving License</option>
 <option value="Passport">Passport</option>
@@ -109,7 +107,7 @@ echo "<script>window.location.href ='add-pass.php'</script>";
      </select></div>
     <div class="form-group"> <label for="exampleInputEmail1">Identity Card No.</label> <input type="text" name="icnum" value="" class="form-control" required='true'> </div>
      <div class="form-group"> <label for="exampleInputEmail1">Category</label><select type="text" name="category" value="" class="form-control" required='true'>
-<?php 
+<?php
 
 $sql2 = "SELECT * from   tblcategory";
 $query2 = $dbh -> prepare($sql2);
@@ -117,8 +115,8 @@ $query2->execute();
 $result2=$query2->fetchAll(PDO::FETCH_OBJ);
 
 foreach($result2 as $row)
-{          
-    ?>  
+{
+    ?>
 <option value="<?php echo htmlentities($row->CategoryName);?>"><?php echo htmlentities($row->CategoryName);?></option>
  <?php } ?>
      </select></div>
@@ -127,7 +125,7 @@ foreach($result2 as $row)
 
      <p style="padding-left: 450px"><button type="submit" class="btn btn-primary" name="submit" id="submit">Add</button></p> </form>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
